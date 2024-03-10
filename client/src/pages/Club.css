@@ -1,0 +1,111 @@
+
+
+.clubFormContainer {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.clubFormContainer h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+    font-size: 26px;
+}
+
+.clubFormContainer label {
+    display: block;
+    margin: 15px 0;
+    color: #333;
+    font-size: 16px;
+}
+
+.clubFormContainer input,
+.clubFormContainer select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #fff;
+    color: #333;
+}
+
+.clubFormContainer input[type='tel'],
+.clubFormContainer input[type='date'],
+.clubFormContainer input[type='time'],
+.clubFormContainer select {
+    height: 50px;
+}
+
+.clubFormContainer input:focus,
+.clubFormContainer select:focus {
+    border-color: #aaa;
+}
+
+.clubFormContainer button {
+    width: 100%;
+    background-color: #ffa500;
+    color: #fff;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.clubFormContainer button:hover {
+    background-color: #cc8400;
+}
+
+/* Increment/Decrement controls styling */
+.clubFormContainer .control-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clubFormContainer .control-group button {
+    background-color: #eee;
+    color: #333;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.clubFormContainer .control-group button:hover {
+    background-color: #ddd;
+}
+
+/* Room addition styling */
+.clubFormContainer .add-room {
+    background-color: #f7f7f7;
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    color: #333;
+    cursor: pointer;
+    text-align: center;
+}
+
+.clubFormContainer .add-room:hover {
+    background-color: #eee;
+}
+
+/* Promo code styling */
+.clubFormContainer.promo-code {
+    border: 1px dashed #ccc;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}

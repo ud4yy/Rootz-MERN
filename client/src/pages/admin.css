@@ -1,0 +1,64 @@
+/* admin.css */
+
+.login-container {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-container h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+    font-size: 26px;
+  }
+  
+  .login-container form {
+    text-align: center;
+  }
+  
+  .login-container label {
+    display: block;
+    margin: 15px 0;
+    color: #333;
+    font-size: 16px;
+  }
+  
+  .login-container input[type="text"],
+  .login-container input[type="password"],
+  .login-container button {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .login-container input[type='text']:focus,
+  .login-container input[type='password']:focus,
+  .login-container button:focus {
+    outline: none;
+    border-color: #aaa;
+  }
+  
+  .login-container button {
+    background-color: #ffa500;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-container button:hover {
+    background-color: #cc8400;
+  }
+  

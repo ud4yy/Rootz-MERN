@@ -1,0 +1,109 @@
+/* src/components/FineDineForm.css */
+
+.fineDineFormContainer {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .fineDineFormContainer h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+    font-size: 26px;
+  }
+  
+  .fineDineFormContainer label {
+    display: block;
+    margin: 15px 0;
+    color: #333;
+    font-size: 16px;
+  }
+  
+  .fineDineFormContainer input,
+  .fineDineFormContainer select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .fineDineFormContainer input[type='tel'],
+  .fineDineFormContainer input[type='date'],
+  .fineDineFormContainer input[type='time'],
+  .fineDineFormContainer select {
+    height: 50px;
+  }
+  
+  .fineDineFormContainer input:focus,
+  .fineDineFormContainer select:focus {
+    border-color: #aaa;
+  }
+  
+  .fineDineFormContainer button {
+    width: 100%;
+    background-color: #ffa500;
+    color: #fff;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  .fineDineFormContainer button:hover {
+    background-color: #cc8400;
+  }
+  
+  .fineDineFormContainer .control-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .fineDineFormContainer .control-group button {
+    background-color: #eee;
+    color: #333;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .fineDineFormContainer .control-group button:hover {
+    background-color: #ddd;
+  }
+  
+  .fineDineFormContainer .add-room {
+    background-color: #f7f7f7;
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    color: #333;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .fineDineFormContainer .add-room:hover {
+    background-color: #eee;
+  }
+  
+  .fineDineFormContainer .promo-code {
+    border: 1px dashed #ccc;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  

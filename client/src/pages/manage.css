@@ -1,0 +1,95 @@
+/* Base styles for the booking page container */
+.ManageBooking {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  /* Styles for the header of the booking page */
+  .ManageBooking h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+    font-size: 26px;
+  }
+  
+  /* Styles for the reservation status cards */
+  .status-card {
+    background-color: #ffa500;
+    color: #fff;
+    border-radius: 4px;
+    padding: 10px 15px;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  
+  /* Styles for the form */
+  .ManageBooking form {
+    text-align: center;
+  }
+  
+  .ManageBooking label {
+    display: block;
+    margin: 15px 0;
+    color: #333;
+    font-size: 16px;
+  }
+  
+  .ManageBooking input[type="text"],
+  .ManageBooking button {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .ManageBooking input[type='text']:focus,
+  .ManageBooking button:focus {
+    outline: none;
+    border-color: #aaa;
+  }
+  
+  /* Styles for error message */
+  .ManageBooking p {
+    color: red;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  /* Styles for the booking information */
+  .ManageBooking h3 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .ManageBooking p {
+    text-align: center;
+  }
+  
+  /* Styles for the delete button */
+  .ManageBooking button {
+    background-color: #ffa500;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  .ManageBooking button:hover {
+    background-color: #cc8400;
+  }
+  

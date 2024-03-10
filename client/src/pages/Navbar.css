@@ -1,0 +1,30 @@
+/* Navbar.css */
+
+.navbarContainer {
+    background-color: #FFFFFF; /* White background */
+    padding: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+  }
+  
+  .navbarLink {
+    color: #114c11; /* Brown color for the text */
+    font-weight: bold; /* Makes text bold */
+    text-decoration: none; /* Removes underline from links */
+    padding: 10px;
+    border-radius: 9px; /* Rounded corners for link backgrounds */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    font-family: 'Merriweather', serif; /* Example of a serif font that could fit a hotel theme */
+  }
+  
+  .navbarLink:hover {
+    background-color: #57d99ebb; /* Black background on hover */
+    color: #f8fbf9; /* Gold color text on hover */
+  }
+  
+  /* Apply some space between links */
+  .navbarLink + .navbarLink {
+    margin-left: 10px;
+  }
+  

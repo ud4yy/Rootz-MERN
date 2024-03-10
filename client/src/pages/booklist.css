@@ -1,0 +1,51 @@
+/* BookingsList.css */
+
+/* Styles for the container */
+.bookings-list-container {
+    margin: 20px;
+}
+
+/* Styles for the table */
+.bookings-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Styles for the select dropdown and buttons */
+.status-select {
+    padding: 8px;
+    margin-right: 8px;
+}
+
+.update-status-button, .delete-button {
+    padding: 8px 12px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.update-status-button:hover, .delete-button:hover {
+    background-color: #45a049;
+}
+
+/* Styles for the delete button */
+.delete-button {
+    background-color: #ff3333; /* Red color for delete button */
+    margin-left: 8px; /* Add space between buttons */
+}
+
+.delete-button:hover {
+    background-color: #cc0000; /* Darker red on hover */
+}
